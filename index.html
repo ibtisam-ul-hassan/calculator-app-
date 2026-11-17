@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculator App</h1>
+
+   <div class="container">
+    <input type="text " disabled placeholder="Enter values..." id="input" >
+
+
+    <div class="btncontainer">
+        <table>
+            <tr>
+                <td onclick="SetInputValue('+')">+</td>
+                <td onclick="SetInputValue('-')">-</td>
+                <td onclick="SetInputValue('*')">X</td>
+                <td onclick="SetInputValue('/')">/</td>
+            </tr>
+            <tr>
+                <td onclick="SetInputValue('7')">7</td>
+                <td onclick="SetInputValue('8')">8</td>
+                <td onclick="SetInputValue('9')">9</td>
+                <td class="Equal" rowspan="3" onclick="calcAns()" >=</td>
+            </tr>
+                <tr>
+                    <td onclick="SetInputValue('4')">4</td>
+                    <td onclick="SetInputValue('5')">5</td>
+                    <td onclick="SetInputValue('6')">6</td>
+                </tr>
+                <tr>
+                    <td onclick="SetInputValue('1')">1</td>
+                    <td onclick="SetInputValue('2')">2</td>
+                    <td onclick="SetInputValue('3')">3</td>
+                </tr>
+                <tr>
+                    <td onclick="SetInputValue('0')">0</td>
+                    <td onclick="SetInputValue('.')">.</td>
+                    <td class="clearall" onclick="clearall()">AC</td>
+                    <td class="clearone" onclick="clearone()">C</td>
+                </tr>
+
+
+        </table>
+
+
+
+    </div>
+    <footer class="footer"> &copy;ibtisam ul hassan &reg; 2026</footer>
+
+
+
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+</html>

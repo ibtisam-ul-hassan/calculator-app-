@@ -1,0 +1,67 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container{
+
+    border: 1px solid black;
+    width: 50%;
+    margin: 50 auto;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: rgb(71, 71, 68);
+
+}
+.container input {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-bottom: 1px solid rgb(44, 34, 34);
+    font-size: 24px;
+    text-align:left;
+    color: white    ;
+    background-color: black;
+}
+
+.btncontainer table{
+    width: 100%;
+}
+
+.btncontainer td{
+
+    padding: 16px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: aqua;
+    color: rgb(15, 15, 15);
+}
+.clearall {
+    color: white ! important;
+    background-color: rgb(194, 78, 78) ! important;
+    border-radius: 15px;
+    
+}
+.clearone{
+
+    color: red ! important;
+     background-color: beige !important;
+     border-radius: 16px;
+}
+.Equal{
+    background-color: gray !important;
+    color: white !important;
+    border-radius: 18px;
+
+
+}
+.footer{
+
+    margin-bottom: 0;
+    padding: 0;
+    color: white;
+    text-align: left;
+}
